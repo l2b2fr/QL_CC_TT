@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d5743f241f764258a1f34c4ee423a325" Name="Diagram1">
+        <EntityTypeShape EntityType="QL_CC_TTModel.Ca_Lam" Width="1.5" PointX="11.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Cham_Cong_Full_Time" Width="1.5" PointX="10.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Cham_Cong_Part_Time" Width="1.5" PointX="13.5" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Chuc_Vu" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Cong_Viec" Width="1.5" PointX="8.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Khen_Thuong" Width="1.5" PointX="8.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Ky_Luat" Width="1.5" PointX="8.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Luong_Full" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Luong_Part" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Nguoi_Dung" Width="1.5" PointX="8.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Nhan_Vien" Width="1.5" PointX="6" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Phong_Ban" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_CC_TTModel.Phu_Cap" Width="1.5" PointX="3.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Cham_Cong_Part_Time_Ca_Lam" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Cham_Cong_Full_Time_Cong_Viec" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Cham_Cong_Part_Time_Cong_Viec" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Luong_Full_Chuc_Vu" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Nhan_Vien_Chuc_Vu" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Cong_Viec_Nhan_Vien" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Khen_Thuong_Nhan_Vien" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Ky_Luat_Nhan_Vien" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Luong_Full_Phong_Ban" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Luong_Part_Phong_Ban" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Nguoi_Dung_Nhan_Vien" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Nhan_Vien_Phong_Ban" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_CC_TTModel.FK_Nhan_Vien_Phu_Cap" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

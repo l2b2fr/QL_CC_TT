@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QL_CC_TTModelStoreContainer" CdmEntityContainer="QL_CC_TTEntities">
+    <EntitySetMapping Name="Ca_Lam">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Ca_Lam">
+        <MappingFragment StoreEntitySet="Ca_Lam">
+          <ScalarProperty Name="id_Ca_Lam" ColumnName="id_Ca_Lam" />
+          <ScalarProperty Name="Ten_Ca" ColumnName="Ten_Ca" />
+          <ScalarProperty Name="Gio_Bat_Dau" ColumnName="Gio_Bat_Dau" />
+          <ScalarProperty Name="Gio_Ket_Thuc" ColumnName="Gio_Ket_Thuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cham_Cong_Full_Time">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Cham_Cong_Full_Time">
+        <MappingFragment StoreEntitySet="Cham_Cong_Full_Time">
+          <ScalarProperty Name="id_Full_Time" ColumnName="id_Full_Time" />
+          <ScalarProperty Name="id_Nhan_Vien" ColumnName="id_Nhan_Vien" />
+          <ScalarProperty Name="Diem_Danh" ColumnName="Diem_Danh" />
+          <ScalarProperty Name="Di_Muon" ColumnName="Di_Muon" />
+          <ScalarProperty Name="Ngay_Lam" ColumnName="Ngay_Lam" />
+          <ScalarProperty Name="Gio_Vao" ColumnName="Gio_Vao" />
+          <ScalarProperty Name="Nghi_Phep" ColumnName="Nghi_Phep" />
+          <ScalarProperty Name="Ly_Do" ColumnName="Ly_Do" />
+          <ScalarProperty Name="Tang_Ca" ColumnName="Tang_Ca" />
+          <ScalarProperty Name="Gio_Bat_Dau" ColumnName="Gio_Bat_Dau" />
+          <ScalarProperty Name="Gio_Ket_Thuc" ColumnName="Gio_Ket_Thuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cham_Cong_Part_Time">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Cham_Cong_Part_Time">
+        <MappingFragment StoreEntitySet="Cham_Cong_Part_Time">
+          <ScalarProperty Name="id_Part_Time" ColumnName="id_Part_Time" />
+          <ScalarProperty Name="id_Ca_Lam" ColumnName="id_Ca_Lam" />
+          <ScalarProperty Name="id_Nhan_Vien" ColumnName="id_Nhan_Vien" />
+          <ScalarProperty Name="Ngay_Lam" ColumnName="Ngay_Lam" />
+          <ScalarProperty Name="Gio_Bat_Dau" ColumnName="Gio_Bat_Dau" />
+          <ScalarProperty Name="Gio_Ket_Thuc" ColumnName="Gio_Ket_Thuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chuc_Vu">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Chuc_Vu">
+        <MappingFragment StoreEntitySet="Chuc_Vu">
+          <ScalarProperty Name="id_Chuc_Vu" ColumnName="id_Chuc_Vu" />
+          <ScalarProperty Name="Ten_Chuc_Vu" ColumnName="Ten_Chuc_Vu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cong_Viec">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Cong_Viec">
+        <MappingFragment StoreEntitySet="Cong_Viec">
+          <ScalarProperty Name="id_Nhan_Vien" ColumnName="id_Nhan_Vien" />
+          <ScalarProperty Name="Ten_Cong_Viec" ColumnName="Ten_Cong_Viec" />
+          <ScalarProperty Name="Loai_Cong_Viec" ColumnName="Loai_Cong_Viec" />
+          <ScalarProperty Name="He_So_Luong" ColumnName="He_So_Luong" />
+          <ScalarProperty Name="Mo_Ta" ColumnName="Mo_Ta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Khen_Thuong">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Khen_Thuong">
+        <MappingFragment StoreEntitySet="Khen_Thuong">
+          <ScalarProperty Name="id_Khen_Thuong" ColumnName="id_Khen_Thuong" />
+          <ScalarProperty Name="id_Nhan_Vien" ColumnName="id_Nhan_Vien" />
+          <ScalarProperty Name="Ly_Do_KT" ColumnName="Ly_Do_KT" />
+          <ScalarProperty Name="So_Tien" ColumnName="So_Tien" />
+          <ScalarProperty Name="Ngay_Khen_Thuong" ColumnName="Ngay_Khen_Thuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ky_Luat">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Ky_Luat">
+        <MappingFragment StoreEntitySet="Ky_Luat">
+          <ScalarProperty Name="id_Ky_Luat" ColumnName="id_Ky_Luat" />
+          <ScalarProperty Name="id_Nhan_Vien" ColumnName="id_Nhan_Vien" />
+          <ScalarProperty Name="Ly_Do_KL" ColumnName="Ly_Do_KL" />
+          <ScalarProperty Name="So_Tien" ColumnName="So_Tien" />
+          <ScalarProperty Name="Ngay_Ky_Luat" ColumnName="Ngay_Ky_Luat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Luong_Full">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Luong_Full">
+        <MappingFragment StoreEntitySet="Luong_Full">
+          <ScalarProperty Name="id_Luong_Full" ColumnName="id_Luong_Full" />
+          <ScalarProperty Name="id_Chuc_Vu" ColumnName="id_Chuc_Vu" />
+          <ScalarProperty Name="id_Phong_Ban" ColumnName="id_Phong_Ban" />
+          <ScalarProperty Name="Luong_Full1" ColumnName="Luong_Full" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Luong_Part">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Luong_Part">
+        <MappingFragment StoreEntitySet="Luong_Part">
+          <ScalarProperty Name="id_Luong_Part" ColumnName="id_Luong_Part" />
+          <ScalarProperty Name="id_Phong_Ban" ColumnName="id_Phong_Ban" />
+          <ScalarProperty Name="Luong_Part1" ColumnName="Luong_Part" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nguoi_Dung">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Nguoi_Dung">
+        <MappingFragment StoreEntitySet="Nguoi_Dung">
+          <ScalarProperty Name="id_Nhan_Vien" ColumnName="id_Nhan_Vien" />
+          <ScalarProperty Name="Tai_Khoan" ColumnName="Tai_Khoan" />
+          <ScalarProperty Name="Mat_Khau" ColumnName="Mat_Khau" />
+          <ScalarProperty Name="Phan_Quyen" ColumnName="Phan_Quyen" />
+          <ScalarProperty Name="Gmail" ColumnName="Gmail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nhan_Vien">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Nhan_Vien">
+        <MappingFragment StoreEntitySet="Nhan_Vien">
+          <ScalarProperty Name="id_Nhan_Vien" ColumnName="id_Nhan_Vien" />
+          <ScalarProperty Name="Ho_Ten" ColumnName="Ho_Ten" />
+          <ScalarProperty Name="Gioi_Tinh" ColumnName="Gioi_Tinh" />
+          <ScalarProperty Name="Ngay_Sinh" ColumnName="Ngay_Sinh" />
+          <ScalarProperty Name="Que_Quan" ColumnName="Que_Quan" />
+          <ScalarProperty Name="Dia_Chi" ColumnName="Dia_Chi" />
+          <ScalarProperty Name="Dan_Toc" ColumnName="Dan_Toc" />
+          <ScalarProperty Name="CCCD" ColumnName="CCCD" />
+          <ScalarProperty Name="Gmail" ColumnName="Gmail" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="Ton_Giao" ColumnName="Ton_Giao" />
+          <ScalarProperty Name="Trinh_Do" ColumnName="Trinh_Do" />
+          <ScalarProperty Name="Ngoai_Ngu" ColumnName="Ngoai_Ngu" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+          <ScalarProperty Name="Hinh_Anh" ColumnName="Hinh_Anh" />
+          <ScalarProperty Name="id_Phong_Ban" ColumnName="id_Phong_Ban" />
+          <ScalarProperty Name="id_Chuc_Vu" ColumnName="id_Chuc_Vu" />
+          <ScalarProperty Name="id_Phu_Cap" ColumnName="id_Phu_Cap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phong_Ban">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Phong_Ban">
+        <MappingFragment StoreEntitySet="Phong_Ban">
+          <ScalarProperty Name="id_Phong_Ban" ColumnName="id_Phong_Ban" />
+          <ScalarProperty Name="Ten_Phong_Ban" ColumnName="Ten_Phong_Ban" />
+          <ScalarProperty Name="Dia_Chi" ColumnName="Dia_Chi" />
+          <ScalarProperty Name="Lien_He" ColumnName="Lien_He" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phu_Cap">
+      <EntityTypeMapping TypeName="QL_CC_TTModel.Phu_Cap">
+        <MappingFragment StoreEntitySet="Phu_Cap">
+          <ScalarProperty Name="id_Phu_Cap" ColumnName="id_Phu_Cap" />
+          <ScalarProperty Name="Ten_Phu_Cap" ColumnName="Ten_Phu_Cap" />
+          <ScalarProperty Name="So_Tien" ColumnName="So_Tien" />
+          <ScalarProperty Name="Mo_Ta" ColumnName="Mo_Ta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
